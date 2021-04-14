@@ -24,17 +24,17 @@ background: #6b0c0cad;
 }
 
  .kolbt {
-width: 96px;
+    width: 96px;
     font: 500 10px arial;
     text-align: left;
     line-height: 15px;
-    position: absolute;
-    top: 81px;
-    left: 335px;
+    position: fixed;
+    top: 165px;
+    left: 285px;
     text-transform: uppercase;
     color: transparent;
     transition: all 0.5s ease-in-out;
-      transition-delay: 0.3s;
+    transition-delay: 0.3s;
 }
 
 .kolyas:hover .kolb {
