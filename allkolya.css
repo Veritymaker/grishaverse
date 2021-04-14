@@ -1,0 +1,56 @@
+//*firma 1*//
+
+.kolyas {
+  width: 310px;
+  height: 240px;
+  margin: 0 auto;
+  background-image: url(https://i.ibb.co/vLxRvsw/kolya2.png);
+  border: 8px solid #1d1d1d;
+   outline: 1px dotted #6b0c0cad;
+   outline-offset: -8px;
+   overflow: hidden;
+   transition: all 0.5s ease-in-out;
+}
+
+.kolb {
+    width: 160px;
+    height: 240px;
+background: #6b0c0cad;
+  mix-blend-mode: multiply;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+        transition-delay: 0.1s;
+  clip-path: polygon(0 0, 81% 0, 60% 100%, 0% 100%);
+}
+
+ .kolbt {
+width: 96px;
+    font: 500 10px arial;
+    text-align: left;
+    line-height: 15px;
+    position: absolute;
+    top: 81px;
+    left: 335px;
+    text-transform: uppercase;
+    color: transparent;
+    transition: all 0.5s ease-in-out;
+      transition-delay: 0.3s;
+}
+
+.kolyas:hover .kolb {
+  width: 520px;
+      transition: all 0.4s ease-in-out;
+}
+
+.kolyas:hover .kolbt {
+  color: #ffffffb8;
+      transition: all 0.4s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.kolbt b {
+  background: #6b0c0cad;
+  color: #ffffffb8;
+  padding: 3px;
+  letter-spacing: 1px;
+}
