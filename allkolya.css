@@ -1,6 +1,4 @@
-//firma//
-
-.kolyas {
+.kolyass {
   width: 310px;
   height: 240px;
   margin: 0 auto;
@@ -23,7 +21,7 @@ background: #6b0c0cad;
   clip-path: polygon(0 0, 81% 0, 60% 100%, 0% 100%);
 }
 
- .kolbt {
+ .kolyass .kolbt {
     width: 96px;
     font: 500 10px arial;
     text-align: left;
@@ -37,12 +35,12 @@ background: #6b0c0cad;
     transition-delay: 0.3s;
 }
 
-.kolyas:hover .kolb {
+.kolyass:hover .kolb {
   width: 520px;
       transition: all 0.4s ease-in-out;
 }
 
-.kolyas:hover .kolbt {
+.kolyass:hover .kolbt {
   color: #ffffffb8;
       transition: all 0.4s ease-in-out;
     transition-delay: 0.2s;
