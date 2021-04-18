@@ -22,13 +22,12 @@ background: #6b0c0cad;
 }
 
  .kolyass .kolbt {
-    width: 96px;
+width: 96px;
     font: 500 10px arial;
     text-align: left;
     line-height: 15px;
     position: relative;
-    top: -150px;
-    left: 285px;
+    top: -180px; left: 25px;
     text-transform: uppercase;
     color: transparent;
     transition: all 0.5s ease-in-out;
