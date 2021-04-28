@@ -1,0 +1,86 @@
+#eve-inf {
+  height: 450px;
+  width: 500px;
+  margin: auto;
+  outline: 3px solid #111111;
+  outline-offset: 6px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.witch-img {
+  width: 200px;
+  height: 440px;
+  background: url(https://i.imgur.com/bElMl3M.jpg);
+  order: 1;
+  flex-basis: auto;
+}
+
+.witch-img .witch-box {
+  color: #ddd;
+  background: #111111;
+  width: 200px;
+  height: 440px;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+  transform: scale(0.45);
+  transition: 0.7s;
+}
+
+.witch-img:hover .witch-box {
+  opacity: 0.9;
+  transition: 0.7s;
+  transform: scale(0.9);
+}
+
+.witch-box .witchling {
+  margin: 5px 20px;
+  width: 132px;
+  height: 157px;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.witch-box .witchling img {
+  width: 130px;
+  height: 155px;
+  border-radius: 100%;
+  border: 6px solid #a66f88;
+}
+
+.witch-box .witchytxt {
+  display: inline-block;
+  text-align: center;
+  font: 11px verdana;
+  text-transform: uppercase;
+  line-height: 2em;
+  margin: 30px 26px;
+  width: 70%;
+  letter-spacing: 1px;
+}
+
+.witch-box .witchytxt span {
+  color: #a66f88;
+  font-size: 15px;
+  padding: 6px;
+  text-align: center;
+  margin: auto;
+}
+
+.witch-weapon {
+  width: 290px;
+  height: 440px;
+  background: #a66f88;
+  order: 2;
+  flex-basis: auto;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: auto;
+}
