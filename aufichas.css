@@ -64,7 +64,7 @@ height: 450px;
 .pj-box .witchytxt {
   display: inline-block;
   text-align: center;
-  font: 11px verdana;
+  font: 11px Arial;
   text-transform: uppercase;
   line-height: 2em;
   margin: 30px 26px;
@@ -73,11 +73,18 @@ height: 450px;
 }
 
 .pj-box .witchytxt span {
-  color: #a66f88;
   font-size: 15px;
   padding: 6px;
   text-align: center;
   margin: auto;
+}
+
+#priya {
+      color: #6a6faa;
+}
+
+#axel {
+      color: #53a09c;
 }
 
 .pj-story {
