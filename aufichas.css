@@ -39,7 +39,7 @@ height: 450px;
   transform: scale(0.9);
 }
 
-.pj-box .witchling {
+.pj-box .witchling, .pj-box .healingb {
   margin: 5px 20px;
   width: 132px;
   height: 157px;
@@ -51,7 +51,14 @@ height: 450px;
   width: 130px;
   height: 155px;
   border-radius: 100%;
-  border: 6px solid #a66f88;
+  border: 6px solid #6a6faa;
+}
+
+.pj-box .healingb img {
+  width: 130px;
+  height: 155px;
+  border-radius: 100%;
+  border: 6px solid #53a09c;
 }
 
 .pj-box .witchytxt {
@@ -73,10 +80,10 @@ height: 450px;
   margin: auto;
 }
 
-.witch-weapon {
+.pj-story {
   width: 290px;
   height: 440px;
-  background: #a66f88;
+  background: #080808eb;
   order: 2;
   flex-basis: auto;
   align-items: center;
