@@ -19,7 +19,7 @@
     width: 305px;
     height: 235px;
     position: relative;
-    top: -240px;
+    top: -230px;
     right: 160px;
     mix-blend-mode: multiply;
     background: #1e3959;
@@ -30,7 +30,6 @@
 .nadsig:hover .nadstint {
     position: relative;
     right: -146px;
-    /*top: -280px;*/
    transition: all ease 1s;
 }
 
@@ -78,17 +77,17 @@ margin-top: 10px;
 }
 
 .nadtxt2 {
-  width: 105px;
-  font: 21px Lora;
-  text-align: right;
-  position: relative;
-  letter-spacing: 2px;
-  left: 180px;
-  top: -250px;  
-  color: #f5f0f0;
-  z-index: 2;
-  transition: all ease 1s;
-  transition-delay: 0.1s;
+    width: 125px;
+    font: 21px Lora;
+    text-align: right;
+    position: relative;
+    letter-spacing: 2px;
+    left: 170px;
+    top: -250px;
+    color: #f5f0f0;
+    z-index: 2;
+    transition: all ease 1s;
+    transition-delay: 0.1s;
 }
 
 .nadsig:hover .nadtxt1 {
@@ -102,31 +101,28 @@ margin-top: 10px;
     transition: all ease-out 1s;
 }
 
-.tidedrop {
-  background: #f5f0f0;
-  border-radius: 50%;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  position: relative;
-  top: -20px;
-  left: 40px;
-  height: 20px;
-  width: 20px;
- animation: waterpulse 2s infinite linear;
+.nadtxt2 i {
+    font-size: 30px;
+    color: #f5f0f0;
+    position: relative;
+    top: -35px;
+    left: 55px;
+    animation: waterpulse 2s infinite linear;
 }
 
 @keyframes waterpulse {
   0% {
     transform: scale(0.85);
-    box-shadow: 0 0 0 0 rgba(245, 240, 240, 0.7);
+   opacity:0;
   }
   
-  70% {
+  50% {
     transform: scale(1.05);
-    box-shadow: 0 0 0 7px rgba(245, 240, 240, 0);
+    opacity:1;
   }
   
   100% {
     transform: scale(0.85);
-    box-shadow: 0 0 0 0 rgba(245, 240, 240, 0);
+    opacity:0;
   }
 }
