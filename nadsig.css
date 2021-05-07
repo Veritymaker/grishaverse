@@ -107,7 +107,7 @@ margin-top: 10px;
     position: relative;
     top: -35px;
     left: 55px;
-    animation: waterpulse 2s infinite linear;
+   animation: waterpulse 2s infinite cubic-bezier(0.38, 0.98, 1, 1);
 }
 
 @keyframes waterpulse {
