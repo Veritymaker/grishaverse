@@ -2,18 +2,18 @@
   width: 310px;
   height: 240px;
   margin: 0 auto;
-  background-image: url(https://i.ibb.co/vLxRvsw/kolya2.png);
+  background-image: url(https://i.ibb.co/jr5QQfn/kolya2.jpg);
   border: 8px solid #1d1d1d;
-   outline: 1px dotted #6b0c0cad;
-   outline-offset: -8px;
-   overflow: hidden;
-   transition: all 0.5s ease-in-out;
+ outline: 1px dotted #6b0c0cad;
+ outline-offset: -8px;
+ overflow: hidden;
+ transition: all 0.5s ease-in-out;
 }
 
 .kolb {
     width: 160px;
     height: 240px;
-background: #6b0c0cad;
+background: #6b0c0cd9;
   mix-blend-mode: multiply;
     position: relative;
     transition: all 0.5s ease-in-out;
@@ -27,7 +27,8 @@ width: 96px;
     text-align: left;
     line-height: 15px;
     position: relative;
-    top: -180px; left: 25px;
+    top: -175px;
+    left: 15px;
     text-transform: uppercase;
     color: transparent;
     transition: all 0.5s ease-in-out;
