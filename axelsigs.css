@@ -1,0 +1,63 @@
+/**1**/
+.axelsig{
+  width: 250px;
+  height: 210px;
+  margin: 0 auto;
+  border: 8px solid #060606;
+  overflow: hidden;
+  position: relative;
+}
+
+.aimg {
+  transition: all ease-in-out 1s;
+   height: 210px; 
+  width: 250px; 
+}
+
+.axeltxt {
+    width: 200px;
+    text-align: justify;
+    letter-spacing: 2px;
+  font: 400 8px calibri;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    margin: auto;
+    line-height: 8px;
+    position: relative; 
+  top: -40px;
+  transition: all ease-in-out 1s;
+  /*transition-delay: 0.2s;*/
+}
+
+.axelsig:hover .aimg{
+filter:brightness(50%) grayscale(25%);
+transition: all ease-in-out 1s;
+}
+
+.axelsig:hover .axeltxt{
+  top: 0;
+  transition: all ease-in-out 1s;
+}
+
+@keyframes pulsing { 
+15% {transform: scale(1.5)}
+15% {filter: drop-shadow(-1px 0 0 #080808);}
+} 
+
+#pulse {
+  animation: pulsing 0.8s infinite;
+  position: absolute;
+  color: #661113;
+  font-size: 20px;
+  top: 100px;
+  left: 110px;
+  transform: scale(0.2);
+   opacity: 0;
+   transition: all ease-in-out 1s;
+}
+
+.axelsig:hover #pulse{
+  transform: scale(1);
+    opacity: 0.88;
+   transition: all ease-in-out 1s;
+}
